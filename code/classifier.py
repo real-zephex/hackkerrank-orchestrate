@@ -98,6 +98,29 @@ RISK AND SAFETY RULES (apply before anything else):
   whether the message is genuinely directed at this user before muting
   purely because the group is muted.
 
+Disambiguation rules (apply when two types both seem to fit):
+- "urgent" vs "event": if the message requires the user's own timely action or
+  reply (fill water now, join a call, respond) → urgent. If it's informational
+  about a schedule/logistics change with no action required from THIS user
+  → event.
+- "personal" vs "unknown": if the sender is asking a direct question to, or
+  making a request of, the receiving user (even casually) → personal. Only
+  use "unknown" when the message has no clear category AND no clear intent
+  directed at the user.
+- "forward" vs "greeting": "greeting" is for morning/evening wishes, blessings,
+  or holiday messages — even if forwarded. "forward" is for chain content that
+  is NOT a greeting (health tips, news clips, motivational text without a
+  greeting framing).
+- "business_update" vs "promotion": "business_update" only applies to
+  transactional status about something the user already has (an order,
+  booking, appointment, refund). If it's advertising something new to buy,
+  or a peer-to-peer sale (not a registered business), it's "promotion", even
+  if it looks formatted like a business message.
+- "personal" vs "unknown": a message from an unfamiliar sender that still
+  makes a specific, on-topic ask (coordinating volunteering, confirming a
+  transaction) leans "personal" over "unknown" — "unknown" is the last
+  resort when nothing else fits, not a default for unfamiliar senders.
+
 Respond with a single JSON object and nothing else — no markdown fences, no
 commentary before or after:
 

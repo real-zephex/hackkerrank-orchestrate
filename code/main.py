@@ -15,6 +15,21 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
 PRED_CACHE_FILE = os.path.join(CACHE_DIR, "predictions_cache.json")
 
+def is_evidence_match(pred_ev_str: str, gt_ev_str: str) -> bool:
+    pred_ev_str = str(pred_ev_str or "").strip()
+    gt_ev_str = str(gt_ev_str or "").strip()
+    
+    if gt_ev_str.lower() == "none":
+        return pred_ev_str.lower() == "none"
+    if pred_ev_str.lower() == "none":
+        return False
+        
+    pred_set = set(x.strip() for x in pred_ev_str.split(";") if x.strip())
+    gt_set = set(x.strip() for x in gt_ev_str.split(";") if x.strip())
+    
+    # Non-empty intersection: match if ANY ground truth ID is in predicted IDs
+    return len(pred_set.intersection(gt_set)) > 0
+
 def run_pipeline(dataset_dir: str = "dataset") -> str:
     logging.info("Starting Message Notification Router pipeline...")
     
@@ -160,7 +175,8 @@ def evaluate_on_sample(ds: DataStore, media_cache: Dict[str, Any]):
 
     action_correct = 0
     type_correct = 0
-    evidence_correct = 0
+    evidence_exact_correct = 0
+    evidence_any_correct = 0
     total = len(samples)
 
     for s in samples:
@@ -174,13 +190,16 @@ def evaluate_on_sample(ds: DataStore, media_cache: Dict[str, Any]):
         if pred["message_type"] == s["message_type"]:
             type_correct += 1
         if pred["evidence_message_ids"] == s["evidence_message_ids"]:
-            evidence_correct += 1
+            evidence_exact_correct += 1
+        if is_evidence_match(pred["evidence_message_ids"], s["evidence_message_ids"]):
+            evidence_any_correct += 1
 
     print("\n" + "="*50)
     print(f"Evaluation on {total} sample messages:")
-    print(f"Action Accuracy:         {action_correct}/{total} ({action_correct/total*100:.1f}%)")
-    print(f"Message Type Accuracy:   {type_correct}/{total} ({type_correct/total*100:.1f}%)")
-    print(f"Evidence Match Accuracy: {evidence_correct}/{total} ({evidence_correct/total*100:.1f}%)")
+    print(f"Action Accuracy:                   {action_correct}/{total} ({action_correct/total*100:.1f}%)")
+    print(f"Message Type Accuracy:             {type_correct}/{total} ({type_correct/total*100:.1f}%)")
+    print(f"Evidence Match (Any Overlap):      {evidence_any_correct}/{total} ({evidence_any_correct/total*100:.1f}%)")
+    print(f"Evidence Match (Strict Exact ID):  {evidence_exact_correct}/{total} ({evidence_exact_correct/total*100:.1f}%)")
     print("="*50 + "\n")
 
 if __name__ == "__main__":
