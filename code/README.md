@@ -47,6 +47,11 @@ Combines `DataStore` and `media_cache.json` to generate complete, precomputed me
 python3 code/context_builder.py
 ```
 
+### Step 4: Run the program (`code/main.py`)
+Uses all of the content generated in the previous step and classifies. It also calculates the accuracy scores.
+```bash
+python3 code/main.py
+```
 ---
 
 ## Output Verification

@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,notify,payment,"Verified bank update about account activity, user previously replied to identical message.",0.95,message_0243
-msg_091,mute,scam,"Message attempts to solicit a login code, matching a previously reported scam.",0.98,message_0238
-msg_090,notify,personal,"Direct personal inquiry from an unfamiliar sender about a package mix-up, requiring a response.",0.90,none
-msg_048,mute,scam,"Message demands immediate payment via QR code with a threat of service blocking, a common scam tactic.",0.98,message_0151
-msg_040,mute,forward,User muted this group and previously muted similar chain messages with forwarding requests.,0.98,message_0136
-msg_075,notify,business_update,Time-sensitive update for an active ride booking from a verified business.,0.98,message_0206
-msg_005,notify,urgent,"Time-sensitive request for item collection requires user action, and user previously replied to a similar message.",0.95,message_0065
-msg_104,mute,personal,User consistently muted similar pick-up requests from this sender in the past.,0.95,message_0383;message_0224;message_0232
-msg_069,mute,greeting,User has muted the group and repeatedly muted similar forwarded greetings in the past.,0.95,message_0193;message_0177
-msg_107,mute,scam,Message is a scam attempt asking for an OTP and includes router instruction injection.,0.95,none
-msg_070,mute,scam,"Message uses pressure tactics and requests sensitive information, indicating a scam attempt.",0.98,message_0213
-msg_003,notify,business_update,"Verified business update about an order expected today, and the user previously replied to identical messages.",0.98,message_0031;message_0400
-msg_099,digest,personal,"Work-related update from a personal contact, requiring review before a standup, but not urgent.",0.90,message_0227
-msg_008,digest,business_update,Non-urgent business review request received during user's DND window.,0.90,message_0296
-msg_092,notify,payment,Verified business sending an important monthly financial statement with payment details.,0.95,none
-msg_060,notify,urgent,"Time-sensitive deadline from faculty admin requiring immediate action, with a history of user replies.",0.95,message_0284;message_0176;message_0404
-msg_004,notify,business_update,"Verified business sending an actionable health update for an upcoming appointment, with user's past replies.",0.95,message_0245;message_0005
-msg_030,mute,promotion,User has muted this marketplace group and previously muted similar promotional messages.,0.95,message_0115;message_0335;message_0050
-msg_045,notify,urgent,Time-sensitive personal delivery request requiring immediate user action within 10 minutes.,0.95,none
-msg_052,mute,scam,"Domain mismatch, unverified sender, and user's history of reporting similar scam messages.",0.95,message_0208;message_0207;message_0159
-msg_009,mute,personal,"User has muted this group, and the message is a casual, non-urgent group discussion.",0.90,none
-msg_071,digest,personal,"Casual update about future family plans, not urgent, from an extended family group.",0.90,message_0197
-msg_016,mute,scam,"Message uses pressure tactics and a suspicious domain, matching previous reported scam attempts.",0.95,message_0024
-msg_065,mute,scam,"Media caption refers to a different company (Amazon) than the sender (Target), indicating a deceptive scam.",0.95,none
-msg_038,mute,forward,"The message is a highly forwarded chain message, and the user previously muted similar content.",0.95,message_0131;message_0132
-msg_086,mute,scam,"Domain mismatch indicates a potential scam, overriding the message's apparent legitimacy and user's past engagement.",0.95,none
-msg_014,mute,promotion,User has opted out of promotions and has muted similar promotional messages in the past.,0.95,message_0017;message_0258;message_0018
-msg_094,digest,promotion,Legitimate promotional offer from a verified business; user frequently dismisses notifications.,0.90,none
-msg_029,digest,promotion,"Peer-to-peer sale in a marketplace group, with past user replies to similar listings.",0.80,message_0332
-msg_105,mute,forward,Unsafe forwarded health advice and user previously muted similar identical messages.,0.95,message_0233;message_0373
-msg_002,notify,urgent,"Direct, time-sensitive work request from a group admin, with a history of user replies to similar urgent messages.",0.95,message_0003
-msg_010,digest,business_update,"Verified business feedback request, user consistently opens similar messages.",0.95,message_0011;message_0242;message_0075
-msg_078,mute,scam,"Message demands urgent bank details for 'benefit approval', a clear scam pattern, and user reported similar attempts.",0.98,message_0211
-msg_013,mute,promotion,Unsolicited commercial promotion from a non-admin in an academic group.,0.95,none
-msg_018,mute,scam,Message uses common scam phrasing and is similar to a previously reported scam.,0.95,message_0026
-msg_044,mute,scam,Message contains scam signals like urgent OTP request and threat of account restriction from a non-admin sender.,0.95,message_0143
-msg_032,digest,personal,"Non-urgent personal request for course material within a relevant student group, similar to past engaged messages.",0.90,message_0119
-msg_106,notify,urgent,"Time-sensitive personal update requiring immediate action, with a history of user replies to similar messages.",0.95,message_0234;message_0376
-msg_006,notify,event,Time-sensitive operational update from a group admin in a society notice group.,0.90,message_0067;message_0097
-msg_109,mute,scam,"Message contains a prompt injection attempt and a suspicious QR payment demand for a penalty, similar to previously reported scam messages.",0.95,message_0151
-msg_108,mute,scam,"Message is a phishing attempt with domain mismatch and prompt injection, similar to previously reported scams.",0.95,message_0094;message_0093
-msg_019,mute,scam,Unverified sender with domain mismatch and pressure language indicates a scam.,0.99,message_0094
-msg_088,mute,promotion,User has muted this marketplace group and previously muted similar selling messages.,0.90,message_0115;message_0050
-msg_056,notify,urgent,"Direct @mention and time-sensitive personal request for confirmation about a doctor's appointment, overriding group mute.",0.95,none
-msg_027,digest,promotion,Promotional message from a verified business the user opted into and previously opened similar offers from.,0.90,message_0272;message_0033;message_0007
-msg_050,mute,scam,Domain mismatch for an unverified business indicates a potential scam attempt.,0.95,none
-msg_083,digest,personal,"Direct work request from admin, explicitly not urgent, and a similar message was previously opened.",0.95,message_0219
-msg_063,mute,scam,Message uses scam tactics like urgent payment demands via QR code and threats of account lock from a non-admin sender.,0.98,message_0181
-msg_033,digest,personal,"Personal check-in and casual request from a family member in a family group, explicitly stating it's not urgent.",0.90,none
-msg_061,mute,greeting,User has muted this group and previously muted similar forwarded greetings.,0.95,message_0193;message_0177;message_0042
-msg_020,mute,scam,Suspicious link and urgent account check from non-admin sender indicate a scam.,0.95,none
-msg_017,mute,scam,"Suspicious payment demand with pressure tactics from a non-admin sender, matching a past reported scam.",0.95,message_0089
-msg_058,mute,forward,User has muted the group and consistently muted similar forwarded health tips.,0.95,message_0039;message_0040;message_0241
-msg_026,mute,scam,"Strong scam signals: domain mismatch, unverified sender, and past user reports for similar messages.",0.98,message_0032
-msg_047,notify,event,Time-sensitive operational update from a group admin in a society maintenance group.,0.95,none
-msg_046,mute,scam,"Message requests OTP with urgent threats of account closure, a clear scam pattern, similar to a previously reported message.",0.98,message_0147
-msg_042,notify,urgent,Time-sensitive security alert from a group admin requiring immediate action to avoid towing.,0.98,message_0140
-msg_079,mute,scam,"Message uses pressure tactics and requests an OTP, which are strong scam indicators.",0.98,message_0045
-msg_098,notify,urgent,"Time-sensitive personal request for a call to make an urgent clinic appointment decision, with a history of user replies to similar messages.",0.95,message_0226
-msg_037,notify,event,Time-sensitive society water update from an admin requires immediate attention.,0.95,message_0001
-msg_007,notify,event,"Time-sensitive society event update from an admin, and user engages with similar notices.",0.90,message_0069
-msg_085,mute,scam,"Domain mismatch, unverified sender, and urgent OTP request indicate a scam attempt.",0.95,message_0221
-msg_001,notify,urgent,"Time-sensitive society update from admin requiring immediate action, matching user's past engagement.",0.95,message_0057
-msg_021,notify,payment,"Time-sensitive payment reminder from a group admin, including a safety warning.",0.95,message_0068
-msg_028,mute,promotion,"User has opted out of promotions, and this is a promotional message identical to one previously muted.",0.95,message_0034
-msg_012,mute,forward,"Generic forwarded health tip from a muted sender, matching past muted messages.",0.98,message_0079;message_0247
-msg_064,mute,scam,"The message requests sensitive financial details under pressure, has irrelevant media, and matches past reported scam attempts.",0.95,message_0087;message_0183;message_0201
-msg_103,notify,urgent,"Time-sensitive personal request for item pickup with a deadline, matching user's past engagement pattern.",0.95,message_0065
-msg_031,notify,urgent,"Urgent work meeting from admin, user consistently replies to similar requests.",0.95,message_0249
-msg_057,notify,urgent,"Urgent work request directly addressed to user, with a history of positive replies to similar messages.",0.98,message_0169;message_0059;message_0003
-msg_087,mute,promotion,User has muted this group and previously reported or muted similar promotional real estate messages.,0.95,message_0204;message_0203;message_0223
-msg_067,notify,payment,"Time-sensitive payment reminder from a group admin with a deadline, and user replied to similar past messages.",0.95,message_0068
-msg_039,notify,urgent,"Direct urgent request from group admin for a fee receipt, critical for child's field-trip registration.",0.90,message_0051
-msg_082,notify,urgent,"Urgent incident alert from group admin requires immediate action, matching prior engagement.",0.95,message_0218
-msg_066,mute,scam,"User opted out of promotions, and the message contains a suspicious brand mismatch in the media caption.",0.95,message_0188;message_0187
-msg_049,notify,business_update,"Verified business sending time-sensitive return pickup notification, user previously replied to similar messages.",0.95,message_0154
-msg_015,mute,scam,"Message attempts to phish for OTP using pressure tactics, a strong scam signal.",0.95,message_0045
-msg_051,mute,promotion,User has opted out of promotions and has a history of muting similar promotional messages.,0.95,message_0257;message_0103;message_0104
-msg_097,digest,personal,"Personal update with explicit no urgency, suggesting future communication.",0.95,message_0167
-msg_089,notify,urgent,Time-sensitive message about a lost item requiring user action before a deadline.,0.95,none
-msg_053,digest,forward,"Non-urgent market update from an investment group, similar to messages the user previously opened.",0.90,message_0161
-msg_059,mute,scam,"Message pressures user to share sensitive financial details under false urgency, indicating a scam.",0.98,none
-msg_024,mute,spam,User has opted out of promotions and has a history of muting similar promotional messages.,0.95,message_0257;message_0103;message_0104
-msg_072,mute,scam,"Message contains scam signals: urgent account threat, suspicious link for OTP verification, and high-pressure language.",0.95,message_0045
-msg_036,mute,scam,"Domain mismatch and phishing attempt, consistent with past reported scam messages.",0.95,message_0283
-msg_076,mute,scam,"Domain mismatch, suspicious refund request, and user's history of reporting similar messages indicate a scam.",0.95,message_0207;message_0159
-msg_055,notify,urgent,Time-sensitive request from a family member requiring immediate action.,0.95,message_0166
-msg_102,notify,urgent,"Time-sensitive operational request requiring user availability, and user previously replied to identical urgent messages.",0.98,message_0371;message_0230
-msg_080,notify,urgent,"Urgent, time-sensitive request from a group admin requiring immediate action from the user.",0.95,message_0130
-msg_093,digest,business_update,Legitimate business delivery update received during user's Do Not Disturb window.,0.95,none
-msg_034,mute,greeting,User muted the group and similar forwarded greetings were previously muted.,0.95,message_0013;message_0077;message_0171
-msg_035,digest,promotion,Verified business sending a promotion the user allows and previously opened.,0.95,message_0281
-msg_101,digest,personal,Personal message with non-urgent content received during user's do-not-disturb window.,0.95,message_0370
-msg_041,mute,scam,Domain mismatch for a verified business asking for survey participation via an external link indicates a potential scam.,0.95,none
-msg_011,mute,greeting,User has muted the group and previously muted similar forwarded greetings.,0.95,message_0077;message_0171;message_0123
-msg_110,mute,scam,"Message contains a prompt injection attempt and requests a login code, matching past reported scam attempts.",0.98,message_0238
-msg_095,mute,scam,"Message attempts prompt injection and asks for sensitive payment information via a suspicious link, consistent with past reported scams.",0.99,message_0087;message_0183;message_0201
-msg_074,mute,promotion,"User has muted this group, and similar promotional messages with risky payment terms were previously reported.",0.95,message_0203;message_0204
-msg_073,mute,scam,"Message uses scam tactics like account restriction threats from a non-admin sender, matching user's history of reporting similar scams.",0.98,message_0087
-msg_054,mute,scam,"Unsolicited loan offer with upfront fee and urgency is a common scam pattern, matching user's past reports.",0.95,message_0163
-msg_068,digest,event,"Non-urgent group update about a future plan and poll, similar to previously opened messages.",0.90,message_0191
-msg_100,notify,urgent,"Urgent, time-sensitive personal request requiring immediate action, with a history of user replies.",0.95,message_0362;message_0228
-msg_062,mute,scam,Suspicious image (missing person with future date) and high forward count indicate potential scam or misinformation.,0.90,none
-msg_096,notify,urgent,Message about a lost passport with a deadline requires immediate user action.,0.95,none
-msg_043,notify,urgent,"Urgent, time-sensitive operational update from a group admin in a society notice group.",0.90,message_0067
-msg_077,notify,urgent,"Urgent school circular from admin requires action by evening, user consistently replies to similar notices.",0.95,message_0051
-msg_081,notify,event,"Time-sensitive school transport update from an admin, matching user's past engagement.",0.95,message_0217
-msg_025,notify,business_update,"Time-sensitive order update from a verified business, and user previously replied to similar messages.",0.98,message_0239;message_0004;message_0105
-msg_084,mute,promotion,"User has explicitly opted out of promotions from this verified business, and the message is a promotional offer.",0.95,message_0220
-msg_022,mute,scam,"Suspicious payment request from non-admin sender, mirroring past reported scams in group.",0.95,message_0151
+msg_023,notify,payment,"Actionable financial update from a verified bank, user previously replied to identical message.",0.95,message_0243
+msg_091,mute,scam,"Message attempts to phish for a login code under false urgency, and an identical message was previously reported.",0.95,message_0238
+msg_090,notify,personal,"Direct personal inquiry about a package mix-up, requiring a response.",0.90,none
+msg_048,mute,scam,"Message demands immediate QR payment under threat, a strong scam signal, and similar messages were previously reported.",0.98,message_0151
+msg_040,mute,forward,"Highly forwarded chain message with manipulative language, and the user has muted the group and similar content.",0.95,message_0136
+msg_075,notify,business_update,Time-sensitive ride status update from a verified business about an active booking.,0.98,message_0206
+msg_005,notify,personal,"Time-sensitive personal request about an item reserved for the user, similar to a past message the user replied to.",0.95,message_0065
+msg_104,mute,personal,User consistently muted similar item collection requests from this sender.,0.95,message_0383;message_0224;message_0232
+msg_069,mute,greeting,User has muted the group and previously muted similar forwarded greetings.,0.98,message_0193;message_0177;message_0042
+msg_107,mute,scam,"Message attempts prompt injection and asks for OTP, indicating a scam.",0.95,message_0213
+msg_070,mute,scam,"Message uses pressure tactics and demands immediate action to prevent account block, indicating a scam.",0.95,message_0213
+msg_003,notify,business_update,"Time-sensitive delivery update from a verified business, and the user replied to similar past messages.",0.98,message_0031;message_0400
+msg_099,digest,personal,"Personal work update with a non-urgent deadline, similar to previously opened messages.",0.90,message_0227
+msg_008,digest,business_update,"Product review from verified business, but sent during user's do-not-disturb window.",0.90,message_0296
+msg_092,notify,payment,Verified business sending a monthly card statement with payment details.,0.95,none
+msg_060,notify,urgent,"Time-sensitive deadline from a faculty admin requiring immediate user action, with a history of user replies.",0.95,message_0284;message_0176
+msg_004,notify,business_update,"Verified business update about an upcoming appointment, with a history of user engagement.",0.95,message_0245;message_0005
+msg_030,mute,promotion,User has muted this group and consistently dismissed similar promotional messages in the past.,0.95,message_0115;message_0335;message_0050
+msg_045,notify,urgent,The message is a time-sensitive delivery request requiring immediate action from the user.,0.95,none
+msg_052,mute,scam,"Domain mismatch, unverified sender, and user's history of reporting similar scam messages indicate fraud.",0.95,message_0208;message_0207;message_0159
+msg_009,mute,event,"The user has explicitly muted this group, overriding the message's social content.",0.95,none
+msg_071,digest,personal,"Casual personal update about future plans from a family member, with details to be confirmed later.",0.90,message_0197
+msg_016,mute,scam,"Message uses pressure tactics and a suspicious domain, matching past reported scam attempts.",0.95,message_0024
+msg_065,mute,scam,"The message from Target contains media promoting Amazon Prime Day, indicating a potential scam or deceptive content.",0.90,none
+msg_038,mute,forward,"Highly forwarded chain message from a sender the user has muted, consistent with past dismissals.",0.95,message_0131;message_0132
+msg_086,mute,scam,Domain mismatch and suspicious repetition of an identical time-sensitive message indicate a potential scam.,0.95,message_0222
+msg_014,mute,promotion,User has opted out of promotions and previously muted identical messages from this business.,0.95,message_0017;message_0258;message_0018
+msg_094,digest,promotion,"Verified business promotion, but user's high dismissal rate suggests low urgency.",0.85,none
+msg_029,digest,promotion,"User has previously replied to similar marketplace sale messages, indicating interest.",0.65,message_0332
+msg_105,mute,forward,Unsafe forwarded health advice previously muted by the user.,0.98,message_0233;message_0373
+msg_002,notify,urgent,"Direct, urgent request from a group admin for a call before a client meeting, with a history of replies.",0.95,message_0003;message_0169;message_0059
+msg_010,digest,business_update,"Verified business sending a feedback request, which the user consistently opens.",0.95,message_0011;message_0242;message_0075
+msg_078,mute,scam,"Message pressures for urgent bank details, a common scam tactic, and user reported similar past scams.",0.95,message_0211
+msg_013,mute,promotion,Off-topic commercial promotion from a member in an academic group.,0.95,none
+msg_018,mute,scam,"Unsolicited reward claim with urgency, matching a previously reported scam pattern.",0.95,message_0026
+msg_044,mute,scam,"Message uses scam tactics with urgent threats and demands for OTP/link clicks, similar to a previously reported scam.",0.98,message_0143
+msg_032,digest,personal,"Non-urgent request for academic material in a student group, similar to past opened messages.",0.90,message_0119
+msg_106,notify,urgent,"Time-sensitive dance practice update requires immediate action, and user previously replied to similar messages.",0.95,message_0234;message_0376
+msg_006,notify,event,"Time-sensitive operational update from group admin, matching user's engagement with similar notices.",0.95,message_0067;message_0097
+msg_109,mute,scam,"Message contains a prompt injection attempt and a suspicious urgent QR payment request, similar to previously reported scams.",0.95,message_0151
+msg_108,mute,scam,"Scam detected due to domain mismatch, unverified sender, and prompt injection attempt.",0.98,message_0094
+msg_019,mute,scam,"Unverified sender with domain mismatch and pressure tactics, matching past reported scam attempts.",0.98,message_0094;message_0093
+msg_088,mute,promotion,User has muted the group and previously muted similar marketplace selling messages.,0.90,message_0115;message_0050
+msg_056,notify,urgent,"Direct @mention with a time-sensitive personal request requiring immediate confirmation, overriding group mute.",0.95,none
+msg_027,mute,scam,"Domain mismatch indicates a potential scam or phishing attempt, overriding user's past engagement.",0.90,none
+msg_050,mute,scam,"Domain mismatch and unverified business status indicate a potential scam, overriding past user engagement.",0.90,none
+msg_083,digest,personal,"Direct work request from an admin, explicitly stating it is not urgent.",0.90,message_0219
+msg_063,mute,scam,"Suspicious payment request via QR code from a non-admin sender, matching past reported scam patterns.",0.98,message_0181
+msg_033,digest,personal,"Personal check-in from a family member, explicitly stating no urgency.",0.90,none
+msg_061,mute,greeting,User has muted this group and similar forwarded greetings in the past.,0.95,message_0193;message_0177;message_0042
+msg_020,mute,scam,Message contains scam indicators like an urgent account check request and suspicious link from a non-admin sender.,0.95,none
+msg_017,mute,scam,Message contains scam signals with urgent payment demands and pressure from a non-admin sender.,0.95,message_0089
+msg_058,mute,forward,User has muted the group and consistently muted similar forwarded health tips.,0.98,message_0039;message_0040;message_0241
+msg_026,mute,scam,"This is a scam attempt due to domain mismatch, unverified sender, and similar messages being reported.",0.95,message_0032
+msg_047,notify,event,Time-sensitive operational update from a group admin about society maintenance.,0.95,none
+msg_046,mute,scam,"Message requests OTP and threatens account closure, indicating a scam.",0.95,message_0147
+msg_042,notify,urgent,Time-sensitive security alert from group admin requiring immediate action to move car.,0.95,message_0140
+msg_079,mute,scam,"Message requests an OTP with urgent, threatening language, indicating a scam attempt.",0.95,message_0045
+msg_098,notify,urgent,"Time-sensitive personal request for immediate decision on a clinic appointment, matching past urgent interactions.",0.95,message_0226
+msg_037,notify,urgent,Urgent society update from admin requires immediate action due to time limit.,0.95,message_0001
+msg_007,digest,event,"Informational society event update from admin, not requiring immediate action.",0.90,message_0069
+msg_085,mute,scam,"Unverified sender with domain mismatch is requesting OTP under pressure, indicating a scam.",0.98,message_0221
+msg_001,notify,urgent,Time-sensitive society notice from admin requires immediate action to fill water.,0.95,message_0057
+msg_021,notify,payment,"Time-sensitive payment reminder from an admin, including a safety warning; user engaged with similar past messages.",0.95,message_0068
+msg_028,mute,promotion,User has opted out of promotions and repeatedly muted similar promotional messages from this business.,0.95,message_0034
+msg_012,mute,forward,"Highly forwarded generic health tip, similar to past messages the user muted.",0.90,message_0079;message_0247
+msg_064,mute,scam,"Suspicious financial verification request, unrelated media, and user's history of reporting similar scams.",0.95,message_0087;message_0183;message_0201
+msg_103,notify,personal,"Time-sensitive personal request for item collection, with a history of user engagement.",0.95,message_0065
+msg_031,notify,urgent,"Time-sensitive work meeting update from a group admin requiring immediate action, consistent with past urgent work messages.",0.95,message_0249
+msg_057,notify,urgent,"Direct urgent request in a work group, user consistently replied to similar past messages.",0.95,message_0169;message_0059;message_0003
+msg_087,mute,promotion,User has muted this group and previously reported or muted similar promotional messages.,0.95,message_0204;message_0203;message_0223
+msg_067,notify,payment,"Time-sensitive payment reminder from admin, user previously replied to similar notices.",0.95,message_0068
+msg_039,notify,urgent,"Urgent, time-sensitive request from a group admin, directly mentioning the user and requiring action today.",0.95,message_0051
+msg_082,notify,urgent,"Urgent operational alert from a group admin about critical system failures, with a history of user engagement.",0.95,message_0218
+msg_066,mute,promotion,User has opted out of promotions from this verified business and muted similar past messages.,0.95,message_0188;message_0187
+msg_049,notify,business_update,"Time-sensitive return pickup from a verified business, user previously replied to similar updates.",0.95,message_0154
+msg_015,mute,scam,Message is a scam attempt demanding OTP and threatening account lock.,0.95,message_0045
+msg_051,mute,promotion,User has opted out of promotions and has a history of muting similar messages.,0.95,message_0257;message_0103;message_0104
+msg_097,digest,personal,"Casual personal update from a known contact, explicitly stating it's not urgent.",0.95,message_0167
+msg_089,notify,urgent,Time-sensitive message about a lost personal item requiring immediate user action before a deadline.,0.95,none
+msg_053,digest,event,"Informational market update in a relevant group, explicitly non-urgent, with positive user engagement history.",0.95,message_0161
+msg_059,mute,scam,"Message requests sensitive financial details under false urgency, indicating a scam.",0.95,none
+msg_024,mute,promotion,User has opted out of promotions and has a history of muting similar promotional messages.,0.95,message_0257;message_0103;message_0104
+msg_072,mute,scam,"Message contains urgent, high-pressure language, a suspicious link, and a fake account block threat, indicating a scam.",0.98,message_0045
+msg_036,mute,scam,"Domain mismatch and suspicious verification request indicate a scam, reinforced by past user reports.",0.98,message_0283
+msg_076,mute,scam,"Domain mismatch, unverified sender, and user's history of reporting similar refund requests indicate a scam.",0.98,message_0208;message_0207;message_0159
+msg_055,notify,urgent,Urgent request from a family member requiring immediate action within a short timeframe.,0.95,message_0166
+msg_102,notify,urgent,"Time-sensitive operational request requiring user action, with a history of user replies to similar messages.",0.95,message_0371;message_0230
+msg_080,notify,urgent,"Urgent, time-sensitive request from a group admin requiring immediate action to move a car.",0.95,message_0130
+msg_093,digest,business_update,Verified business delivery update received during user's do-not-disturb window.,0.95,none
+msg_034,mute,greeting,User has muted this group and similar forwarded greetings were previously muted.,0.95,message_0013
+msg_035,digest,promotion,User allows promotions from this verified business and previously opened an identical promotional message.,0.95,message_0281
+msg_101,digest,personal,"Personal update about food, received during DND, but similar messages were previously opened.",0.90,message_0268
+msg_041,mute,scam,Domain mismatch for a verified business asking for survey participation indicates a potential scam.,0.95,none
+msg_011,mute,greeting,User has muted the group and consistently muted similar forwarded greetings in the past.,0.98,message_0077;message_0171;message_0123
+msg_110,mute,scam,"Message is a scam attempt asking for a login code, contains a prompt injection, and user reported similar messages.",0.98,message_0238;message_0381
+msg_095,mute,scam,"Message contains a prompt injection attempt, suspicious payment request, and matches past reported scam messages.",0.98,message_0087;message_0183;message_0201
+msg_074,mute,scam,"User muted group, reported similar messages, and the payment terms are suspicious.",0.90,message_0203;message_0204
+msg_073,mute,scam,Message uses scam tactics like account restriction warnings and demands immediate action via a link from a non-admin sender; user reported similar scams.,0.95,message_0087;message_0183;message_0201
+msg_054,mute,scam,"Scam attempt for a processing fee, out of context for group, and user reported similar messages.",0.95,message_0163
+msg_068,digest,personal,"Message explicitly states no urgency for a casual group plan update, similar to a previously opened message.",0.90,message_0191
+msg_100,notify,urgent,"Critical, time-sensitive request requiring immediate action, with a history of user replies to similar messages.",0.98,message_0362;message_0228
+msg_062,digest,event,"Time-sensitive society event notice from an admin, previously engaged with, but sent during DND.",0.75,message_0043
+msg_096,notify,urgent,Message about a lost passport with an urgent deadline requires immediate user action.,0.95,none
+msg_043,notify,event,Time-sensitive society update from an admin about a critical service requiring immediate action.,0.90,message_0067
+msg_077,notify,urgent,"Urgent school circular from admin requiring action by tonight for tomorrow's field trip, with a history of replies.",0.90,message_0051
+msg_081,notify,urgent,"Urgent school transport update from an admin requiring immediate user action, similar to a message the user replied to.",0.95,message_0217
+msg_025,notify,business_update,"Transactional update from verified business, user previously engaged with identical messages.",0.95,message_0239;message_0004
+msg_084,mute,promotion,"User has opted out of promotions from this verified business, and the message is a promotional offer.",0.95,message_0220
+msg_022,mute,scam,"Suspicious payment request from non-admin member asking for screenshot, matching past reported scam patterns.",0.95,message_0151
